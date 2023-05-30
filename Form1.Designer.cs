@@ -30,7 +30,7 @@ namespace CourseProject_TRPK
         private void InitializeComponent()
         {
             this.dataGridViewEnough = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonDepList = new System.Windows.Forms.Button();
             this.dataGridViewNotEnough = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -52,15 +52,16 @@ namespace CourseProject_TRPK
             this.dataGridViewEnough.Size = new System.Drawing.Size(534, 498);
             this.dataGridViewEnough.TabIndex = 1;
             // 
-            // button1
+            // buttonDepList
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(364, 563);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(379, 66);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Списки по отделениям";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonDepList.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonDepList.Location = new System.Drawing.Point(364, 563);
+            this.buttonDepList.Name = "buttonDepList";
+            this.buttonDepList.Size = new System.Drawing.Size(379, 66);
+            this.buttonDepList.TabIndex = 2;
+            this.buttonDepList.Text = "Списки по отделениям";
+            this.buttonDepList.UseVisualStyleBackColor = true;
+            this.buttonDepList.Click += new System.EventHandler(this.buttonDepList_Click);
             // 
             // dataGridViewNotEnough
             // 
@@ -104,7 +105,7 @@ namespace CourseProject_TRPK
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridViewNotEnough);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonDepList);
             this.Controls.Add(this.dataGridViewEnough);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -118,7 +119,7 @@ namespace CourseProject_TRPK
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridViewEnough;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonDepList;
         private System.Windows.Forms.DataGridView dataGridViewNotEnough;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

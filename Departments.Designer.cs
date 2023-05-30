@@ -44,6 +44,7 @@ namespace CourseProject_TRPK
             this.buttonNeuro.TabIndex = 0;
             this.buttonNeuro.Text = "Неврологическое";
             this.buttonNeuro.UseVisualStyleBackColor = true;
+            this.buttonNeuro.Click += new System.EventHandler(this.buttonNeuro_Click);
             // 
             // buttonCardio
             // 
@@ -54,6 +55,7 @@ namespace CourseProject_TRPK
             this.buttonCardio.TabIndex = 1;
             this.buttonCardio.Text = "Кардиологическое";
             this.buttonCardio.UseVisualStyleBackColor = true;
+            this.buttonCardio.Click += new System.EventHandler(this.buttonCardio_Click);
             // 
             // buttonSurg
             // 
@@ -64,6 +66,7 @@ namespace CourseProject_TRPK
             this.buttonSurg.TabIndex = 2;
             this.buttonSurg.Text = "Хирургическое";
             this.buttonSurg.UseVisualStyleBackColor = true;
+            this.buttonSurg.Click += new System.EventHandler(this.buttonSurg_Click);
             // 
             // buttonOnco
             // 
@@ -74,6 +77,7 @@ namespace CourseProject_TRPK
             this.buttonOnco.TabIndex = 3;
             this.buttonOnco.Text = "Онкологическое";
             this.buttonOnco.UseVisualStyleBackColor = true;
+            this.buttonOnco.Click += new System.EventHandler(this.buttonOnco_Click);
             // 
             // Departments
             // 

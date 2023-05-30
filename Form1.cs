@@ -15,6 +15,15 @@ namespace CourseProject_TRPK
         public Form1()
         {
             InitializeComponent();
+            StartPosition = FormStartPosition.CenterScreen;
+        }
+
+        private void buttonDepList_Click(object sender, EventArgs e)
+        {
+            Departments dl = new Departments();
+            Hide();
+            dl.ShowDialog();
+            Show();
         }
     }
 }

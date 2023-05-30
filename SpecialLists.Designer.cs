@@ -107,6 +107,7 @@ namespace CourseProject_TRPK
             this.buttonToMain.TabIndex = 9;
             this.buttonToMain.Text = "Вернуться на главную";
             this.buttonToMain.UseVisualStyleBackColor = true;
+            this.buttonToMain.Click += new System.EventHandler(this.buttonToMain_Click);
             // 
             // buttonToDeps
             // 
@@ -117,6 +118,7 @@ namespace CourseProject_TRPK
             this.buttonToDeps.TabIndex = 10;
             this.buttonToDeps.Text = "Вернуться к выбору отделения";
             this.buttonToDeps.UseVisualStyleBackColor = true;
+            this.buttonToDeps.Click += new System.EventHandler(this.buttonToDeps_Click);
             // 
             // SpecialLists
             // 
