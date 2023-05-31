@@ -101,9 +101,9 @@ namespace CourseProject_TRPK
             // buttonToMain
             // 
             this.buttonToMain.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonToMain.Location = new System.Drawing.Point(905, 12);
+            this.buttonToMain.Location = new System.Drawing.Point(863, 12);
             this.buttonToMain.Name = "buttonToMain";
-            this.buttonToMain.Size = new System.Drawing.Size(193, 63);
+            this.buttonToMain.Size = new System.Drawing.Size(227, 63);
             this.buttonToMain.TabIndex = 9;
             this.buttonToMain.Text = "Вернуться на главную";
             this.buttonToMain.UseVisualStyleBackColor = true;
@@ -112,9 +112,9 @@ namespace CourseProject_TRPK
             // buttonToDeps
             // 
             this.buttonToDeps.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonToDeps.Location = new System.Drawing.Point(706, 12);
+            this.buttonToDeps.Location = new System.Drawing.Point(630, 12);
             this.buttonToDeps.Name = "buttonToDeps";
-            this.buttonToDeps.Size = new System.Drawing.Size(193, 63);
+            this.buttonToDeps.Size = new System.Drawing.Size(227, 63);
             this.buttonToDeps.TabIndex = 10;
             this.buttonToDeps.Text = "Вернуться к выбору отделения";
             this.buttonToDeps.UseVisualStyleBackColor = true;
@@ -134,6 +134,7 @@ namespace CourseProject_TRPK
             this.Controls.Add(this.dataGridViewEnough);
             this.Name = "SpecialLists";
             this.Text = "SpecialLists";
+            this.Load += new System.EventHandler(this.SpecialLists_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEnough)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewNotEnough)).EndInit();
             this.ResumeLayout(false);

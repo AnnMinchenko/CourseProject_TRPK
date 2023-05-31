@@ -108,7 +108,8 @@ namespace CourseProject_TRPK
             this.Controls.Add(this.buttonDepList);
             this.Controls.Add(this.dataGridViewEnough);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Общие списки";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewEnough)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewNotEnough)).EndInit();
             this.ResumeLayout(false);

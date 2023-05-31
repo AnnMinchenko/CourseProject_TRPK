@@ -20,34 +20,30 @@ namespace CourseProject_TRPK
 
         private void buttonNeuro_Click(object sender, EventArgs e)
         {
-            SpecialLists sl = new SpecialLists("neuro");
+            SpecialLists sl = new SpecialLists("Неврологическое");
             Hide();
             sl.ShowDialog();
-            Show();
         }
 
         private void buttonCardio_Click(object sender, EventArgs e)
         {
-            SpecialLists sl = new SpecialLists("cardio");
+            SpecialLists sl = new SpecialLists("Кардиологическое");
             Hide();
             sl.ShowDialog();
-            Show();
         }
 
         private void buttonSurg_Click(object sender, EventArgs e)
         {
-            SpecialLists sl = new SpecialLists("surg");
+            SpecialLists sl = new SpecialLists("Хирургическое");
             Hide();
             sl.ShowDialog();
-            Show();
         }
 
         private void buttonOnco_Click(object sender, EventArgs e)
         {
-            SpecialLists sl = new SpecialLists("onco");
+            SpecialLists sl = new SpecialLists("Онкологическое");
             Hide();
             sl.ShowDialog();
-            Show();
         }
     }
 }
